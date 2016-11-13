@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hello.HelloControllerIT" time="0.249" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2016.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.66-b17"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/media/main/phoeniix/devel/services/gs-spring-boot/initial"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7533"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/media/main/phoeniix/devel/services/gs-spring-boot/initial"/>
+    <property name="java.runtime.version" value="1.8.0_66-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/media/main/phoeniix/devel/develwork/tools/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/phoeniix/Programs/idea-IU-162.2032.8/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.8.0-27-generic"/>
+    <property name="user.home" value="/home/phoeniix"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/media/main/Programs/idea-IU-162.2032.8/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="phoeniix"/>
+    <property name="java.class.path" value="/media/main/phoeniix/devel/develwork/tools/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar:/media/main/Programs/idea-IU-162.2032.8/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/media/main/Programs/sdks/jdk1.8.0_66/jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.2.5 verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_66"/>
+    <property name="java.ext.dirs" value="/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/resources.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/rt.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/sunrsasign.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/jsse.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/jce.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/charsets.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/lib/jfr.jar:/media/main/Programs/sdks/jdk1.8.0_66/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/media/main/phoeniix/devel/develwork/tools/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="hello.HelloControllerIT" time="0.003">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+</error>
+    <system-out><![CDATA[20:04:29.594 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class hello.HelloControllerIT]
+20:04:29.598 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:04:29.603 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:04:29.614 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [hello.HelloControllerIT] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+20:04:29.624 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [hello.HelloControllerIT], using SpringBootContextLoader
+20:04:29.627 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerIT-context.xml] does not exist
+20:04:29.628 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [hello.HelloControllerIT]: class path resource [hello/HelloControllerITContext.groovy] does not exist
+20:04:29.628 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [hello.HelloControllerIT]: no resource found for suffixes {-context.xml, Context.groovy}.
+20:04:29.629 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [hello.HelloControllerIT]: HelloControllerIT does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:04:29.658 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [hello.HelloControllerIT]
+20:04:29.693 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+20:04:29.694 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+20:04:29.694 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+20:04:29.702 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [hello/] to resources [URL [file:/media/main/phoeniix/devel/services/gs-spring-boot/initial/target/test-classes/hello/]]
+20:04:29.702 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/media/main/phoeniix/devel/services/gs-spring-boot/initial/target/test-classes/hello]
+20:04:29.702 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/media/main/phoeniix/devel/services/gs-spring-boot/initial/target/test-classes/hello] for files matching pattern [/media/main/phoeniix/devel/services/gs-spring-boot/initial/target/test-classes/hello/*.class]
+20:04:29.705 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:hello/*.class] to resources [file [/media/main/phoeniix/devel/services/gs-spring-boot/initial/target/test-classes/hello/HelloControllerIT.class], file [/media/main/phoeniix/devel/services/gs-spring-boot/initial/target/test-classes/hello/HelloControllerTest.class]]
+]]></system-out>
+  </testcase>
+</testsuite>

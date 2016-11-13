@@ -1,0 +1,75 @@
+43117012 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Initializing servlet 'dispatcherServlet'
+43117012 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+43117013 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+43117013 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'multipartResolver'
+43117013 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@10272bbb]
+43117013 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'localeResolver'
+43117013 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Using LocaleResolver [org.springframework.web.servlet.i18n.SessionLocaleResolver@7efd28bd]
+43117013 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+43117015 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@26613679]
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'resourceHandlerMapping'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+43117016 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'faviconHandlerMapping'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'endpointHandlerMapping'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'errorAttributes'
+43117017 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'handlerExceptionResolver'
+43117018 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+43117019 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+43117019 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+43117019 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7a3401a1]
+43117020 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'beanNameViewResolver'
+43117020 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mvcViewResolver'
+43117020 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'defaultViewResolver'
+43117020 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'viewResolver'
+43117020 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+43117023 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+43117023 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+43117023 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@3ea381c]
+43117023 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+43117023 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+43117023 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Servlet 'dispatcherServlet' configured successfully
+43117032 [http-nio-8080-exec-2] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5df5c9dd
+43117034 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing POST request for [/exampleBody]
+43117036 [http-nio-8080-exec-2] DEBUG o.s.b.a.e.m.EndpointHandlerMapping - Looking up handler method for path /exampleBody
+43117039 [http-nio-8080-exec-2] DEBUG o.s.b.a.e.m.EndpointHandlerMapping - Did not find handler method for [/exampleBody]
+43117040 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /exampleBody
+43117041 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public com.example.domain.ExampleResponse com.example.controller.ExampleController.exampleBody(com.example.domain.ExampleRequest)]
+43117041 [http-nio-8080-exec-2] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'exampleController'
+43117089 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read [class com.example.domain.ExampleRequest] as "application/json;charset=UTF-8" with [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@2924f1d8]
+43117099 [http-nio-8080-exec-2] DEBUG com.example.service.ExampleService - Attempting to process body endpoint
+43117119 [http-nio-8080-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Written [com.example.domain.ExampleResponse@32fe0c03] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@2924f1d8]
+43117119 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+43117119 [http-nio-8080-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+43117120 [http-nio-8080-exec-2] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5df5c9dd
+43139212 [http-nio-8080-exec-3] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Bound request context to thread: org.apache.catalina.connector.RequestFacade@5df5c9dd
+43139212 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/examplePost]
+43139212 [http-nio-8080-exec-3] DEBUG o.s.b.a.e.m.EndpointHandlerMapping - Looking up handler method for path /examplePost
+43139213 [http-nio-8080-exec-3] DEBUG o.s.b.a.e.m.EndpointHandlerMapping - Did not find handler method for [/examplePost]
+43139213 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /examplePost
+43139214 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Did not find handler method for [/examplePost]
+43139214 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Matching patterns for request [/examplePost] are [/**]
+43139215 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - URI Template variables for request [/examplePost] are {}
+43139215 [http-nio-8080-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapping [/examplePost] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[ServletContext resource [/], class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@3135bf25]]] and 1 interceptor
+43139215 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/examplePost] is: -1
+43139216 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+43139216 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request
+43139216 [http-nio-8080-exec-3] DEBUG o.s.b.w.f.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@5df5c9dd
+43139219 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/error]
+43139219 [http-nio-8080-exec-3] DEBUG o.s.b.a.e.m.EndpointHandlerMapping - Looking up handler method for path /error
+43139221 [http-nio-8080-exec-3] DEBUG o.s.b.a.e.m.EndpointHandlerMapping - Did not find handler method for [/error]
+43139221 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking up handler method for path /error
+43139221 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Returning handler method [public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)]
+43139221 [http-nio-8080-exec-3] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'basicErrorController'
+43139221 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Last-Modified value for [/error] is: -1
+43139235 [http-nio-8080-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Written [{timestamp=Sun Nov 13 09:45:17 PST 2016, status=404, error=Not Found, message=No message available, path=/examplePost}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@2924f1d8]
+43139235 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+43139235 [http-nio-8080-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Successfully completed request

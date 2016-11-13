@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.controller.ExampleControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.588 sec - in com.example.controller.ExampleControllerTest

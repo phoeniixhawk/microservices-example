@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <environments default="example">
+        <environment id="example">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="net.sourceforge.jtds.jdbc.Driver"/>
+                <property name="url" value="jdbc:jtds:sqlserver://ca1ts-dbqa01.travelsecure.local:1433;databaseName=TipsTest;sendStringParametersAsUnicode=false"/>
+                <property name="username" value="jeeserviceuser"/>
+                <property name="password" value="hdxzbm"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="com/ea/service/mappers/claim/ClaimPayeesMapper.xml" />
+        <mapper class="com.ea.service.mappers.PolicyMapper" />
+        <mapper class="com.ea.service.mappers.ProductMapper" />
+    </mappers>
+
+</configuration>
