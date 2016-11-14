@@ -2,8 +2,10 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="org.mybatis.example.BlogMapper">
-    <select id="selectBlog" resultType="Blog">
-        select * from Example where id = #{id}
+<mapper namespace="com.example.mappers.ExampleMapperClass">
+    <select id="selectExample" resultType="com.example.mybatis.entity.ExamplePojo">
+        select id as id, content as content
+        from example
+        where id = #{id}
     </select>
 </mapper>

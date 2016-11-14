@@ -7,9 +7,10 @@ import org.apache.ibatis.annotations.Select;
 public interface ExampleMapperClass {
 
     @Select({"<script>",
-            "select id as id, content as content",
-            "from ExampleDB",
+            "select id as id, content as content ",
+            "from example " +
+            "where id = #{id}",
             "</script>"})
-    ExamplePojo getExamplePojo(@Param("id") long id, @Param("content") String content);
+    ExamplePojo getExamplePojo(@Param("id") long id);
 
 }

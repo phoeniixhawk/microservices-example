@@ -6,22 +6,24 @@
 
 <configuration>
 
+    <!--<properties resource="application-dev.properties"/>-->
+
     <settings>
         <setting name="logImpl" value="LOG4J"/>
     </settings>
 
     <environments default="example">
+        <!--<environment id="example">-->
+            <!--<transactionManager type="JDBC"/>-->
+            <!--<dataSource type="JNDI">-->
+                <!--<property name="data_source" value="java:/ExampleDB"/>-->
+            <!--</dataSource>-->
+        <!--</environment>-->
         <environment id="example">
             <transactionManager type="JDBC"/>
-            <dataSource type="JNDI">
-                <property name="data_source" value="java:/ExampleDB"/>
-            </dataSource>
-        </environment>
-        <environment id="development">
-            <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="${driver}"/>
-                <property name="url" value="${url}"/>
+                <property name="driver" value="${driverClass}"/>
+                <property name="url" value="${connectionUrl}"/>
                 <property name="username" value="${username}"/>
                 <property name="password" value="${password}"/>
             </dataSource>
@@ -29,8 +31,8 @@
     </environments>
 
     <mappers>
+        <!--<mapper class="com.example.mappers.ExampleMapperClass" />-->
         <mapper resource="com/example/mappers/ExampleMapperXml.xml" />
-        <mapper class="com.example.mappers.ExampleMapperClass" />
     </mappers>
 
 </configuration>

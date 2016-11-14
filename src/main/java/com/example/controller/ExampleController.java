@@ -14,7 +14,7 @@ public class ExampleController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
-    private ExampleService processor;
+    private ExampleService exampleService;
 
     @Autowired
     private ExampleMessageResource exampleMessageResource;
@@ -28,18 +28,18 @@ public class ExampleController {
     public ExampleResponse exampleParam(@RequestParam(value="name", defaultValue="World") String name) {
         ExampleResponse response = null;
         try {
-            response = processor.process(name);
+            response = exampleService.index(name);
         } catch (Exception e) {
             logger.error("Unable to process Example Request", e);
         }
         return response;
     }
 
-    @RequestMapping(value = "/exampleBody", method = RequestMethod.POST)
-    public ExampleResponse exampleBody(@RequestBody ExampleRequest request) {
+    @RequestMapping(value = "/exampleGetRecord", method = RequestMethod.POST)
+    public ExampleResponse exampleGetRecord(@RequestBody ExampleRequest request) {
         ExampleResponse response = null;
         try {
-            response = processor.process(request);
+            response = exampleService.getRecord(request);
         } catch (Exception e) {
             logger.error("Unable to process Example Request", e);
         }

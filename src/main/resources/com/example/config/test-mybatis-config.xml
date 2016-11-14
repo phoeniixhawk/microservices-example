@@ -19,9 +19,8 @@
     </environments>
 
     <mappers>
-        <mapper resource="com/ea/service/mappers/claim/ClaimPayeesMapper.xml" />
-        <mapper class="com.ea.service.mappers.PolicyMapper" />
-        <mapper class="com.ea.service.mappers.ProductMapper" />
+        <mapper resource="com/example/mappers/ExampleMapperXml.xml" />
+        <!--<mapper class="com.example.mappers.ExampleMapperClass" />-->
     </mappers>
 
 </configuration>

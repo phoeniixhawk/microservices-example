@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -16,7 +17,7 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 import java.util.Locale;
 
 @Configuration
-@PropertySource("classpath:application-${spring.config.name:dev}.properties")
+@PropertySource("classpath:application-${spring.profile.active:dev}.properties")
 @EnableCaching
 public class ExampleConfig extends WebMvcConfigurerAdapter {
     @Bean
@@ -29,6 +30,14 @@ public class ExampleConfig extends WebMvcConfigurerAdapter {
 
     @Bean
     public static PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer() {
+//        String activeProfile = System.getProperty("spring.profiles.active", "dev");
+//        String propertiesFilename = "application-" + activeProfile + ".properties";
+//
+//        PropertySourcesPlaceholderConfigurer configurer = new PropertySourcesPlaceholderConfigurer();
+//        configurer.setLocation(new ClassPathResource(propertiesFilename));
+//
+//        return configurer;
+
         return new PropertySourcesPlaceholderConfigurer();
     }
 
